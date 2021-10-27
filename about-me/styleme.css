@@ -1,0 +1,156 @@
+body{
+
+    background-color: rgb(75, 202, 170);
+
+    font-family: "Verdana";
+
+    text-align: justify;
+
+    color: white;
+
+}
+
+
+
+h1{
+
+    font-family: 'Trebuchet MS','Georgia', 'Tahoma','Lucida Sans Unicode','sans-serif';
+
+    font-size: 40px;
+
+    color: rgb(7, 10, 163);
+
+}
+
+
+
+h2{
+
+    font-family: "Tahoma";
+
+    font-size: 24px;
+
+    color: rgb(7, 10, 163);
+
+    text-decoration: underline;
+
+}
+
+
+
+p{
+
+    color: white;
+
+    font-size: 18px;
+
+}
+
+p.dropCap::first-letter{
+
+    font-size: 24px;
+
+}
+
+
+
+.emphasis{
+
+    font-style: italic;
+
+    font-weight: bold;
+
+    color: black;
+
+}
+
+
+
+a:hover{
+
+    text-decoration-line: underline;
+
+}
+
+
+
+a:visited{
+
+    color: rgb(190, 87, 87);
+
+}
+
+
+
+a:link{
+
+    color: rgb(186, 197, 245);
+
+    text-decoration: none;
+
+}
+
+
+
+a:active{
+
+    color: #333;
+
+}
+
+
+
+dl{
+
+    text-indent: 10px;
+
+}
+
+
+
+ol {
+
+    display: flex;
+
+    flex-direction: column-reverse;
+
+}
+
+
+
+li {
+
+    flex: 0 0 auto;
+
+}
+
+
+
+div{
+
+    display: inline-block;
+
+    float: none;
+
+}
+
+
+
+.left{
+
+    width: 570px;
+
+    height: 300px;
+
+}
+
+
+
+.right{
+
+    width: 560px;
+
+    height: 300px;
+
+}
+
