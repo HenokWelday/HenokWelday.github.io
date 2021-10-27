@@ -19,6 +19,8 @@ h1{
     font-weight: bold;
     text-decoration: underline;
     letter-spacing: 0.25em;
+    display: inline-block;
+    margin-left: 30%;
 }
 
 h2{
