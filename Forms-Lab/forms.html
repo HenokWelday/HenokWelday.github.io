@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fLabs.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <fieldset>
+        <legend>New User Signup:</legend>
+        <form action="http://mumstudents.org/params.php">
+            Name:
+            <input class="in" type="text" name="name" size="16" /> <br />
+            Gender:
+            <input class="in3" type="radio" name="g" value="male" /> Male
+            <input class="in6" type="radio" name="g" value="female" checked /> Female <br />
+            Age:
+            <input class="in1" type="text" name="age" size="6" maxlength="2" /> <br />
+            Personality type:
+            <input class="in4" type="text" name="pt" size="6" maxlength="4" /> (<a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">Dont't know your type?</a>) <br />
+            Favorite OS:
+            <select class="in5" name="os">
+                <option>Windows</option>
+                <option>MacOS</option>
+                <option>Linux</option>
+            </select> <br />
+            Seeking age:
+            <input class="in2" type="text" name="samin" size="6" maxlength="2" placeholder="Min" />
+            to
+            <input type="text" size="6" name="samax" maxlength="2" placeholder="Max" />
+            <br />
+            <input id="button" type="submit" value="Sign Up">
+        </form>
+    </fieldset>
+    <br/><br/>
+    <a href="https://validator.w3.org/check/referer"> <img src="w3c-html.png" alt="html validator"/></a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer"> <img src="w3c-css.png" alt="css validator"/></a>
+</body>
+
+</html>

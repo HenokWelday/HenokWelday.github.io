@@ -1,0 +1,66 @@
+fieldset{
+    background-color: rgb(208, 204, 238);  
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+    width: 500px;
+    font-family: Verdana;
+}
+
+legend{
+    border: 1px solid darkgray;
+    background-color: white;
+    box-shadow: 1px 1px gray;
+}
+
+#button{
+    background-color: rgb(206, 138, 118);
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+
+  .in{
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 105px
+  }
+
+  .in1{
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 120px;
+    margin-bottom: 5px;
+  }
+
+  .in2{
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 52px;
+  }
+
+  .in3{
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 95px;
+    margin-bottom: 5px;
+    filter: grayscale();
+  }
+  .in4{
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 22px;
+    margin-bottom: 5px;
+  }
+  .in5{
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 57px;
+    margin-bottom: 5px;
+  }
+
+  .in6{
+    filter: grayscale();
+  }
+  a:link{
+    color: rgb(235, 88, 88);
+  }
