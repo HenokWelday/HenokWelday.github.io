@@ -6,6 +6,7 @@
         document.getElementById("sizeSelector").onchange = setAnimationSize;
         document.getElementById("startBtn").onclick = animationLooper;
         document.getElementById("stopBtn").onclick = animationStopper;
+    
     }
 
     function getAnimationPage() {
@@ -62,12 +63,7 @@
         let v = document.getElementById("viewBoard");
         let arr = v.innerHTML.split("=====");
         let s;
-        if (document.getElementById("turbo").checked) {
-            s = 50;
-        }
-        else {
-            s = 250;
-        }
+       
         x = setInterval(myAnimate, s);
 
         function myAnimate() {
@@ -80,17 +76,29 @@
             else if (i === (arr.length - 1)) {
                 i = 0;
             }
+            clearInterval(x);
+            if (document.getElementById("turbo").checked) {
+                s = 50;
+            }
+            else {
+                s = 250;
+            }
+        
             v.innerHTML = arr[i];
+            x = setInterval(myAnimate, s);
             document.getElementById("startBtn").disabled = true;
             document.getElementById("animationSelector").disabled = true;
+            document.getElementById("stopBtn").disabled = false;
         }
     }
 
     function animationStopper() {
+        i = 0;
         clearInterval(x);
         getAnimationPage();
         document.getElementById("startBtn").disabled = false;
         document.getElementById("animationSelector").disabled = false;
+        document.getElementById("stopBtn").disabled = true;
     }
 })();
 
