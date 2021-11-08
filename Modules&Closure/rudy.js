@@ -1,5 +1,7 @@
+"use strict";
+
 var rudyTimer = (function () {
-    "use strict";
+    
     let timer = null;
     let rudy = function () {
       document.getElementById("output").innerText += "Rudy!";
